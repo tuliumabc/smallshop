@@ -1,0 +1,4 @@
+small_shop:
+    resource: "@SmallShopBundle/Resources/config/routing.yml"
+    prefix:   /
+

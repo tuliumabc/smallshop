@@ -1,0 +1,9 @@
+HomeP:
+    pattern:  /
+    defaults: { _controller: SmallShopBundle:contHP:f1}    
+MainP:
+    pattern:  /MainP/{ParentID}/{numpage}
+    defaults: { _controller: SmallShopBundle:contMP:f1, numpage:1}
+ProdP:
+    pattern:  /ProdP/{ProductID}/{ParentID}/{numpage}
+    defaults: { _controller: SmallShopBundle:contPP:f1 }
